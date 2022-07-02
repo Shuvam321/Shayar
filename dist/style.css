@@ -7740,8 +7740,8 @@ body.logged-in .YouTubePopUp-Wrap {
    Dependencies: no dependencies
    ========================================================================== */
 .box {
-	width: 75px;
-	height: 75px;
+	width: 100%;
+	height: 100%;
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(204, 204, 204, 0.75);
 	box-shadow: 0px 1px 4px 0px rgba(204, 204, 204, 0.75);
 	display: inline-block;
@@ -7750,6 +7750,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	text-align: center;
 	line-height: 75px;
 	margin-right: 15px;
+	opacity: 1;
 }
 
 .box__icon {
@@ -9401,14 +9402,14 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .section--skin-1 {
-	background-image: url("../assets/img/common/backgrounds/skin-1.jpg");
+	/* background-image: url("../assets/img/common/backgrounds/skin-1.jpg"); */
 	background-size: 100% 965px;
 	background-position: center 130px;
 	background-repeat: no-repeat;
 }
 
 .section--skin-2 {
-	background-image: url("../assets/img/common/backgrounds/skin-2.jpg");
+	/* background-image: url("../assets/img/common/backgrounds/skin-2.jpg"); */
 	background-size: 100% 965px;
 	background-position: center 130px;
 	background-repeat: no-repeat;
