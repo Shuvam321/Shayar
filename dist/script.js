@@ -23335,12 +23335,12 @@ will produce an inaccurate conversion value. The same issue exists with the cx/c
 			if ($(window).scrollTop() === 0) {
 				header.removeClass('header--fixed');
 				if (logo.data('switch') === true) {
-					logo.attr("src", "assets/img/common/logo/Shayar_logo_512_whitebg.png");
+					logo.attr("src", "assets/img/common/logo/logo_circle.png");
 				}
 			} else {
 				header.addClass('header--fixed');
 				if (logo.data('switch') === true) {
-					logo.attr("src", "assets/img/common/logo/Shayar_logo_512_whitebg.png");
+					logo.attr("src", "assets/img/common/logo/logo_circle.png");
 				}
 			}
 		};
