@@ -9392,7 +9392,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .section--grey {
 	background-color: #f7f7f7;
-	padding-top:100px;
+	/* padding-top:100px; */
 }
 
 .section--blue {
