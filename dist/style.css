@@ -8863,24 +8863,24 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .menu__item:hover > .menu__link {
-	color: #23034C;
+	color: #ea3665;
 }
 
 .menu__item:hover > .menu__link:after {
-	color: #23034C;
+	color: #ea3665;
 }
 
 .menu__link:hover {
 	text-decoration: none;
-	color: #23034C;
+	color: #ea3665;
 }
 
 .menu__link:hover:after {
-	color: #23034C;
+	color: #ea3665;
 }
 
 .menu__child .menu__link:hover {
-	color: #23034C;
+	color: #ea3665;
 }
 
 .menu__child .menu__link:hover:before {
