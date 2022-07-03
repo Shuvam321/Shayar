@@ -8348,8 +8348,8 @@ body.logged-in .YouTubePopUp-Wrap {
 }
 
 .input--contact .input__field {
-	height: 48px;
-	line-height: 48px;
+	height: 30px;
+	line-height: 30px;
 	border: 2px solid #eeeeee;
 }
 
@@ -8555,6 +8555,9 @@ body.logged-in .YouTubePopUp-Wrap {
 	height: 500px;
 	width: 100%;
 	z-index: 5;
+	top: 0;
+	margin-bottom: 60px;
+	height: 400px;
 }
 
 a[href^="http://maps.google.com/maps"] {
@@ -10354,11 +10357,11 @@ div.video:before {
 		margin-right: 0;
 	}
 
-	.map {
+	/* .map {
 		top: 0;
 		margin-bottom: 60px;
 		height: 400px;
-	}
+	} */
 
 	.screens-preview {
 		left: auto;
