@@ -9344,8 +9344,8 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: no dependencies
    ========================================================================== */
 .section-subtitle {
-	text-transform: uppercase;
-	color: #abafb8;
+	text-transform: capitalize;
+	color: #23034C;
 	font-size: 14px;
 	letter-spacing: 0.01em;
 	margin-bottom: 40px;
@@ -9390,7 +9390,7 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: Fontello.less
    ========================================================================== */
 .section {
-	padding: 90px 0;
+	padding: 90px 0px;
 	position: relative;
 }
 
@@ -9550,7 +9550,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .slider__slide {
-	padding-top: 85px;
+	/* padding-top: 85px; */
 	position: relative;
 }
 
@@ -10294,7 +10294,7 @@ div.video:before {
 	}
 
 	.slider__slide {
-		padding-top: 50px;
+		padding-top: 0px;
 	}
 
 	.stats {
