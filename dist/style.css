@@ -8543,7 +8543,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .logo__image {
 	display: block;
-	height: 40px;
+	height: 70px;
 }
 /* ==========================================================================
    Block: Map
@@ -8786,7 +8786,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .menu__item--button {
-	border: 1px solid #5d626d;
+	border: 1px solid #ffff;
 	border-radius: 21px;
 	-webkit-transition: background-color 0.25s ease;
 	-moz-transition: background-color 0.25s ease;
