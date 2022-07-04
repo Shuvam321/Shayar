@@ -4,6 +4,7 @@
 	color: #ffff;
 	background-color: #23034C;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 	/* text-align: center; */
 
 
@@ -22,3 +23,8 @@
 	line-height: 39px;
 	opacity: 1;
 }
+
+/* .container{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+} */
