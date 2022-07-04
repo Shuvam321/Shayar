@@ -809,6 +809,11 @@
 
 }
 
+.test-img{
+	background-image: url("../assets/img/common/backgrounds/BlueBG_1.png");
+	background-size: cover
+}
+
 
 /*Extra*/
 	/*
