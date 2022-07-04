@@ -1,0 +1,24 @@
+*{
+	/* background-image: url("img/BlueBG_1.png"); */
+	/* background-size: cover; */
+	color: #ffff;
+	background-color: #23034C;
+	font-family: 'Open Sans', sans-serif;
+	/* text-align: center; */
+
+
+}
+
+.title {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 26px;
+	color: #ffff;
+	font-weight: 600;
+	/* width: 600px; */
+	font-size: 45px;
+	max-width: 100%;
+	letter-spacing: -0.01em;
+	line-height: 39px;
+	opacity: 1;
+}
