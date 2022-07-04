@@ -2361,7 +2361,19 @@
 	<!-- Main js -->
 	<script src="mystyle2/js/main.js"></script>
 	<!--myfile second ends-->
+	<script>
+		if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    alert("Geolocation is not supported by this browser.");
+  }
 
+
+  function showPosition(position) {
+    alert("Latitude: " + position.coords.latitude +
+      "   Longitude: " + position.coords.longitude);
+  }
+	</script>
 
 	<!-- <script>
 		AOS.init({
