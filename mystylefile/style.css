@@ -810,12 +810,12 @@ a:visited {
 
 .button {
     background: linear-gradient(to right, var(--blue), var(--light-blue));
-    border: 2px solid rgba(0, 156, 240, .4);
+    /* border: 2px solid rgba(0, 156, 240, .4); */
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
     font-weight: 600;
-    padding: .5em 1.5em;
+    /* padding: .5em 1.5em; */
     text-align: center;
     transition: all .25s
 }

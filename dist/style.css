@@ -191,6 +191,7 @@ strong {
 b,
 strong {
 	font-weight: bolder;
+	font-size: 25px;
 }
 /**
  * Add the correct font style in Android 4.3-.
@@ -7780,6 +7781,10 @@ body.logged-in .YouTubePopUp-Wrap {
 	text-align: center;
 }
 
+.button__input:hover{
+	color: #ea3665;
+}
+
 .button--small .button__input,
 .button--small .button__link {
 	height: 50px;
@@ -9299,7 +9304,7 @@ a[href^="https://maps.google.com/maps"] {
    ========================================================================== */
 .screens-preview {
 	padding: 20px;
-	border: 1px dotted rgba(183, 184, 184, 0.5);
+	/* border: 1px dotted rgba(183, 184, 184, 0.5); */
 	max-width: 350px;
 	position: relative;
 	margin-bottom: 40px;
@@ -10085,7 +10090,7 @@ div.video:before {
 	display: block;
 	content: '';
 	position: absolute;
-	background-color: #1c57ff;
+	/* background-color: #1c57ff; */
 	height: 100px;
 	width: 100%;
 	left: 0;
