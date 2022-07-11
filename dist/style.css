@@ -7108,6 +7108,7 @@ a {
 .sf-menu a {
 	display: block;
 	position: relative;
+	font-size: 16px;
 }
 
 .sf-menu ul ul {
@@ -7749,7 +7750,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	zoom: 1;
 	*display: inline;
 	text-align: center;
-	line-height: 75px;
+	/* line-height: 75px; */
 	margin-right: 15px;
 	opacity: 1;
 }
@@ -8001,10 +8002,11 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .download-button__platform {
 	display: block;
-	color: #abafb8;
-	text-transform: uppercase;
+	color: #ea3665;
+	text-transform: capitalize;
 	letter-spacing: 0.005em;
 	margin-bottom: 10px;
+	font-family:'Open Sans', sans-serif ;
 }
 
 .download-button__store {
@@ -8548,7 +8550,7 @@ body.logged-in .YouTubePopUp-Wrap {
 
 .logo__image {
 	display: block;
-	height: 80px;
+	height: 100px;
 }
 /* ==========================================================================
    Block: Map
@@ -9341,7 +9343,7 @@ a[href^="https://maps.google.com/maps"] {
 }
 
 .screens-preview--right .screens-preview__secondary {
-	right: -30%;
+	right: -34%;
 	left: auto;
 }
 /* ==========================================================================
@@ -9360,6 +9362,10 @@ a[href^="https://maps.google.com/maps"] {
 	max-width: 425px;
 	margin: 0 auto 40px auto;
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+
+
 }
 
 .section-subtitle--hero {
@@ -9372,7 +9378,7 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: no dependencies
    ========================================================================== */
 .section-title {
-	font-size: 26px;
+	/* font-size: 26px; */
 	font-weight: 700;
 	margin-bottom: 20px;
 	line-height: 34px;
@@ -9381,6 +9387,7 @@ a[href^="https://maps.google.com/maps"] {
 .section-title--center {
 	text-align: center;
 	color: #23034C;
+	/* font-size: 26px; */
 }
 
 .section-title--light {
@@ -9395,13 +9402,13 @@ a[href^="https://maps.google.com/maps"] {
    Dependencies: Fontello.less
    ========================================================================== */
 .section {
-	padding: 90px 0px;
+	padding: 0px 0px 90px 0px;
 	position: relative;
 }
 
 .section--grey {
 	background-color: #f7f7f7;
-	/* padding-top:10px; */
+	padding-top:10px;
 }
 
 .section--blue {
@@ -9561,20 +9568,24 @@ a[href^="https://maps.google.com/maps"] {
 
 .slider__image {
 	opacity: 0;
-	width: 470px !important;
+	width: 400px !important;
+	height: 500px;
 	margin: 0 auto;
 	z-index: 5;
 	position: relative;
+	
 }
 
 .slider__secondary {
 	opacity: 0;
-	width: 290px !important;
+	width: 250px !important;
+	height: 300px;
 	position: absolute;
 	bottom: 0;
 	left: 50%;
 	margin-left: -457px;
 	z-index: 1;
+	/* transform: translateX(-118px); */
 	-webkit-box-shadow: 0px 2px 9px 0px rgba(0, 0, 12, 0.7);
 	box-shadow: 0px 2px 9px 0px rgba(0, 0, 12, 0.7);
 }
@@ -9583,6 +9594,7 @@ a[href^="https://maps.google.com/maps"] {
 	left: auto;
 	right: 50%;
 	margin-right: -457px;
+	transform: translateX(-105px);
 }
 
 .slider__title {
