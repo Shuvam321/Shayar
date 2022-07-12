@@ -1556,7 +1556,7 @@ a.scroll-top i {
   border: none;
   font-size: 16px;
   line-height: 0;
-  top: 50%;
+  top: -80px;
   position: absolute;
   right: 18%;
   background: #fff;
@@ -1578,8 +1578,8 @@ a.scroll-top i {
   border: none;
   font-size: 16px;
   line-height: 0;
-  left: 18%;
-  top: 50%;
+  right: 350px;
+  top: -80px;
   position: absolute;
   color: #1d42d9;
   font-weight: bold;

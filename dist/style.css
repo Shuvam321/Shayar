@@ -84,18 +84,20 @@
 
 html {
 	font-family: sans-serif;
-  /* 1 */
+	/* 1 */
 	-ms-text-size-adjust: 100%;
-  /* 2 */
+	/* 2 */
 	-webkit-text-size-adjust: 100%;
-  /* 2 */
+	/* 2 */
 }
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
 body {
 	margin: 0;
 }
+
 /* HTML5 display definitions
    ========================================================================== */
 /**
@@ -115,9 +117,10 @@ menu,
 nav,
 section,
 summary {
-  /* 1 */
+	/* 1 */
 	display: block;
 }
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -127,6 +130,7 @@ progress,
 video {
 	display: inline-block;
 }
+
 /**
  * Add the correct display in iOS 4-7.
  */
@@ -134,12 +138,14 @@ audio:not([controls]) {
 	display: none;
 	height: 0;
 }
+
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
 	vertical-align: baseline;
 }
+
 /**
  * Add the correct display in IE 10-.
  * 1. Add the correct display in IE.
@@ -148,6 +154,7 @@ template,
 [hidden] {
 	display: none;
 }
+
 /* Links
    ========================================================================== */
 /**
@@ -156,6 +163,7 @@ template,
 a {
 	background-color: transparent;
 }
+
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
@@ -164,6 +172,7 @@ a:active,
 a:hover {
 	outline-width: 0;
 }
+
 /* Text-level semantics
    ========================================================================== */
 /**
@@ -172,12 +181,13 @@ a:hover {
  */
 abbr[title] {
 	border-bottom: none;
-  /* 1 */
+	/* 1 */
 	text-decoration: underline;
-  /* 2 */
+	/* 2 */
 	text-decoration: underline dotted;
-  /* 2 */
+	/* 2 */
 }
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
@@ -185,6 +195,7 @@ b,
 strong {
 	font-weight: inherit;
 }
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -193,12 +204,14 @@ strong {
 	font-weight: bolder;
 	font-size: 25px;
 }
+
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
 	font-style: italic;
 }
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -207,6 +220,7 @@ h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
 }
+
 /**
  * Add the correct background and color in IE 9-.
  */
@@ -214,12 +228,14 @@ mark {
 	background-color: #ff0;
 	color: #000;
 }
+
 /**
  * Add the correct font size in all browsers.
  */
 small {
 	font-size: 80%;
 }
+
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
@@ -239,6 +255,7 @@ sub {
 sup {
 	top: -0.5em;
 }
+
 /* Embedded content
    ========================================================================== */
 /**
@@ -247,12 +264,14 @@ sup {
 img {
 	border-style: none;
 }
+
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
 	overflow: hidden;
 }
+
 /* Grouping content
    ========================================================================== */
 /**
@@ -264,28 +283,31 @@ kbd,
 pre,
 samp {
 	font-family: monospace, monospace;
-  /* 1 */
+	/* 1 */
 	font-size: 1em;
-  /* 2 */
+	/* 2 */
 }
+
 /**
  * Add the correct margin in IE 8.
  */
 figure {
 	margin: 1em 40px;
 }
+
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
 hr {
 	box-sizing: content-box;
-  /* 1 */
+	/* 1 */
 	height: 0;
-  /* 1 */
+	/* 1 */
 	overflow: visible;
-  /* 2 */
+	/* 2 */
 }
+
 /* Forms
    ========================================================================== */
 /**
@@ -297,12 +319,14 @@ select,
 textarea {
 	font: inherit;
 }
+
 /**
  * Restore the font weight unset by the previous rule.
  */
 optgroup {
 	font-weight: bold;
 }
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -311,9 +335,10 @@ optgroup {
 button,
 input,
 select {
-  /* 2 */
+	/* 2 */
 	overflow: visible;
 }
+
 /**
  * Remove the margin in Safari.
  * 1. Remove the margin in Firefox and Safari.
@@ -322,18 +347,20 @@ button,
 input,
 select,
 textarea {
-  /* 1 */
+	/* 1 */
 	margin: 0;
 }
+
 /**
  * Remove the inheritence of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritence of text transform in Firefox.
  */
 button,
 select {
-  /* 1 */
+	/* 1 */
 	text-transform: none;
 }
+
 /**
  * Change the cursor in all browsers (opinionated).
  */
@@ -343,12 +370,14 @@ button,
 [type="submit"] {
 	cursor: pointer;
 }
+
 /**
  * Restore the default cursor to disabled elements unset by the previous rule.
  */
 [disabled] {
 	cursor: default;
 }
+
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
@@ -359,8 +388,9 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
 	-webkit-appearance: button;
-  /* 2 */
+	/* 2 */
 }
+
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -369,6 +399,7 @@ input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
 }
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
@@ -376,6 +407,7 @@ button:-moz-focusring,
 input:-moz-focusring {
 	outline: 1px dotted ButtonText;
 }
+
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
@@ -384,6 +416,7 @@ fieldset {
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
 }
+
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
@@ -392,24 +425,26 @@ fieldset {
  */
 legend {
 	box-sizing: border-box;
-  /* 1 */
+	/* 1 */
 	color: inherit;
-  /* 2 */
+	/* 2 */
 	display: table;
-  /* 1 */
+	/* 1 */
 	max-width: 100%;
-  /* 1 */
+	/* 1 */
 	padding: 0;
-  /* 3 */
+	/* 3 */
 	white-space: normal;
-  /* 1 */
+	/* 1 */
 }
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
 	overflow: auto;
 }
+
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
@@ -417,10 +452,11 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
 	box-sizing: border-box;
-  /* 1 */
+	/* 1 */
 	padding: 0;
-  /* 2 */
+	/* 2 */
 }
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
@@ -428,12 +464,14 @@ textarea {
 [type="number"]::-webkit-outer-spin-button {
 	height: auto;
 }
+
 /**
  * Correct the odd appearance of search inputs in Chrome and Safari.
  */
 [type="search"] {
 	-webkit-appearance: textfield;
 }
+
 /**
  * Remove the inner padding and cancel buttons in Chrome on OS X and
  * Safari on OS X.
@@ -442,6 +480,7 @@ textarea {
 [type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
+
 /* ==========================================================================
    YouTubePopUp plugin override
    ========================================================================== */
@@ -630,32 +669,33 @@ input[type="search"] {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
+
 	input[type="date"].form-control,
-  input[type="time"].form-control,
-  input[type="datetime-local"].form-control,
-  input[type="month"].form-control {
+	input[type="time"].form-control,
+	input[type="datetime-local"].form-control,
+	input[type="month"].form-control {
 		line-height: 34px;
 	}
 
 	input[type="date"].input-sm,
-  input[type="time"].input-sm,
-  input[type="datetime-local"].input-sm,
-  input[type="month"].input-sm,
-  .input-group-sm input[type="date"],
-  .input-group-sm input[type="time"],
-  .input-group-sm input[type="datetime-local"],
-  .input-group-sm input[type="month"] {
+	input[type="time"].input-sm,
+	input[type="datetime-local"].input-sm,
+	input[type="month"].input-sm,
+	.input-group-sm input[type="date"],
+	.input-group-sm input[type="time"],
+	.input-group-sm input[type="datetime-local"],
+	.input-group-sm input[type="month"] {
 		line-height: 30px;
 	}
 
 	input[type="date"].input-lg,
-  input[type="time"].input-lg,
-  input[type="datetime-local"].input-lg,
-  input[type="month"].input-lg,
-  .input-group-lg input[type="date"],
-  .input-group-lg input[type="time"],
-  .input-group-lg input[type="datetime-local"],
-  .input-group-lg input[type="month"] {
+	input[type="time"].input-lg,
+	input[type="datetime-local"].input-lg,
+	input[type="month"].input-lg,
+	.input-group-lg input[type="date"],
+	.input-group-lg input[type="time"],
+	.input-group-lg input[type="datetime-local"],
+	.input-group-lg input[type="month"] {
 		line-height: 46px;
 	}
 }
@@ -690,8 +730,8 @@ input[type="search"] {
 	margin-top: 4px \9;
 }
 
-.radio + .radio,
-.checkbox + .checkbox {
+.radio+.radio,
+.checkbox+.checkbox {
 	margin-top: -5px;
 }
 
@@ -706,8 +746,8 @@ input[type="search"] {
 	cursor: pointer;
 }
 
-.radio-inline + .radio-inline,
-.checkbox-inline + .checkbox-inline {
+.radio-inline+.radio-inline,
+.checkbox-inline+.checkbox-inline {
 	margin-top: 0;
 	margin-left: 10px;
 }
@@ -857,17 +897,17 @@ select[multiple].input-lg {
 	pointer-events: none;
 }
 
-.input-lg + .form-control-feedback,
-.input-group-lg + .form-control-feedback,
-.form-group-lg .form-control + .form-control-feedback {
+.input-lg+.form-control-feedback,
+.input-group-lg+.form-control-feedback,
+.form-group-lg .form-control+.form-control-feedback {
 	width: 46px;
 	height: 46px;
 	line-height: 46px;
 }
 
-.input-sm + .form-control-feedback,
-.input-group-sm + .form-control-feedback,
-.form-group-sm .form-control + .form-control-feedback {
+.input-sm+.form-control-feedback,
+.input-group-sm+.form-control-feedback,
+.form-group-sm .form-control+.form-control-feedback {
 	width: 30px;
 	height: 30px;
 	line-height: 30px;
@@ -978,11 +1018,11 @@ select[multiple].input-lg {
 	color: #a94442;
 }
 
-.has-feedback label ~ .form-control-feedback {
+.has-feedback label~.form-control-feedback {
 	top: 25px;
 }
 
-.has-feedback label.sr-only ~ .form-control-feedback {
+.has-feedback label.sr-only~.form-control-feedback {
 	top: 0;
 }
 
@@ -1016,12 +1056,12 @@ select[multiple].input-lg {
 	}
 
 	.form-inline .input-group .input-group-addon,
-  .form-inline .input-group .input-group-btn,
-  .form-inline .input-group .form-control {
+	.form-inline .input-group .input-group-btn,
+	.form-inline .input-group .form-control {
 		width: auto;
 	}
 
-	.form-inline .input-group > .form-control {
+	.form-inline .input-group>.form-control {
 		width: 100%;
 	}
 
@@ -1031,7 +1071,7 @@ select[multiple].input-lg {
 	}
 
 	.form-inline .radio,
-  .form-inline .checkbox {
+	.form-inline .checkbox {
 		display: inline-block;
 		margin-top: 0;
 		margin-bottom: 0;
@@ -1039,12 +1079,12 @@ select[multiple].input-lg {
 	}
 
 	.form-inline .radio label,
-  .form-inline .checkbox label {
+	.form-inline .checkbox label {
 		padding-left: 0;
 	}
 
 	.form-inline .radio input[type="radio"],
-  .form-inline .checkbox input[type="checkbox"] {
+	.form-inline .checkbox input[type="checkbox"] {
 		position: relative;
 		margin-left: 0;
 	}
@@ -1194,7 +1234,7 @@ select[multiple].input-lg {
 	}
 
 	th.visible-xs,
-  td.visible-xs {
+	td.visible-xs {
 		display: table-cell !important;
 	}
 }
@@ -1231,7 +1271,7 @@ select[multiple].input-lg {
 	}
 
 	th.visible-sm,
-  td.visible-sm {
+	td.visible-sm {
 		display: table-cell !important;
 	}
 }
@@ -1268,7 +1308,7 @@ select[multiple].input-lg {
 	}
 
 	th.visible-md,
-  td.visible-md {
+	td.visible-md {
 		display: table-cell !important;
 	}
 }
@@ -1305,7 +1345,7 @@ select[multiple].input-lg {
 	}
 
 	th.visible-lg,
-  td.visible-lg {
+	td.visible-lg {
 		display: table-cell !important;
 	}
 }
@@ -1370,7 +1410,7 @@ select[multiple].input-lg {
 	}
 
 	th.visible-print,
-  td.visible-print {
+	td.visible-print {
 		display: table-cell !important;
 	}
 }
@@ -1976,31 +2016,32 @@ select[multiple].input-lg {
 }
 
 @media (min-width: 768px) {
+
 	.col,
-  .col-sm-1,
-  .col-sm-2,
-  .col-sm-3,
-  .col-sm-4,
-  .col-sm-5,
-  .col-sm-6,
-  .col-sm-7,
-  .col-sm-8,
-  .col-sm-9,
-  .col-sm-10,
-  .col-sm-11,
-  .col-sm-12,
-  .col-sm-13,
-  .col-sm-14,
-  .col-sm-15,
-  .col-sm-16,
-  .col-sm-17,
-  .col-sm-18,
-  .col-sm-19,
-  .col-sm-20,
-  .col-sm-21,
-  .col-sm-22,
-  .col-sm-23,
-  .col-sm-24 {
+	.col-sm-1,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12,
+	.col-sm-13,
+	.col-sm-14,
+	.col-sm-15,
+	.col-sm-16,
+	.col-sm-17,
+	.col-sm-18,
+	.col-sm-19,
+	.col-sm-20,
+	.col-sm-21,
+	.col-sm-22,
+	.col-sm-23,
+	.col-sm-24 {
 		float: left;
 	}
 
@@ -2402,31 +2443,32 @@ select[multiple].input-lg {
 }
 
 @media (min-width: 992px) {
+
 	.col,
-  .col-md-1,
-  .col-md-2,
-  .col-md-3,
-  .col-md-4,
-  .col-md-5,
-  .col-md-6,
-  .col-md-7,
-  .col-md-8,
-  .col-md-9,
-  .col-md-10,
-  .col-md-11,
-  .col-md-12,
-  .col-md-13,
-  .col-md-14,
-  .col-md-15,
-  .col-md-16,
-  .col-md-17,
-  .col-md-18,
-  .col-md-19,
-  .col-md-20,
-  .col-md-21,
-  .col-md-22,
-  .col-md-23,
-  .col-md-24 {
+	.col-md-1,
+	.col-md-2,
+	.col-md-3,
+	.col-md-4,
+	.col-md-5,
+	.col-md-6,
+	.col-md-7,
+	.col-md-8,
+	.col-md-9,
+	.col-md-10,
+	.col-md-11,
+	.col-md-12,
+	.col-md-13,
+	.col-md-14,
+	.col-md-15,
+	.col-md-16,
+	.col-md-17,
+	.col-md-18,
+	.col-md-19,
+	.col-md-20,
+	.col-md-21,
+	.col-md-22,
+	.col-md-23,
+	.col-md-24 {
 		float: left;
 	}
 
@@ -2828,31 +2870,32 @@ select[multiple].input-lg {
 }
 
 @media (min-width: 1200px) {
+
 	.col,
-  .col-lg-1,
-  .col-lg-2,
-  .col-lg-3,
-  .col-lg-4,
-  .col-lg-5,
-  .col-lg-6,
-  .col-lg-7,
-  .col-lg-8,
-  .col-lg-9,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-12,
-  .col-lg-13,
-  .col-lg-14,
-  .col-lg-15,
-  .col-lg-16,
-  .col-lg-17,
-  .col-lg-18,
-  .col-lg-19,
-  .col-lg-20,
-  .col-lg-21,
-  .col-lg-22,
-  .col-lg-23,
-  .col-lg-24 {
+	.col-lg-1,
+	.col-lg-2,
+	.col-lg-3,
+	.col-lg-4,
+	.col-lg-5,
+	.col-lg-6,
+	.col-lg-7,
+	.col-lg-8,
+	.col-lg-9,
+	.col-lg-10,
+	.col-lg-11,
+	.col-lg-12,
+	.col-lg-13,
+	.col-lg-14,
+	.col-lg-15,
+	.col-lg-16,
+	.col-lg-17,
+	.col-lg-18,
+	.col-lg-19,
+	.col-lg-20,
+	.col-lg-21,
+	.col-lg-22,
+	.col-lg-23,
+	.col-lg-24 {
 		float: left;
 	}
 
@@ -3337,6 +3380,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
 /* ==========================================================================
    Unordered List
    ========================================================================== */
@@ -3349,6 +3393,7 @@ ul {
 ul ul {
 	margin-bottom: 0;
 }
+
 /* ==========================================================================
    Ordered List
    ========================================================================== */
@@ -3363,6 +3408,7 @@ ol {
 ol ol {
 	margin-bottom: 0;
 }
+
 /* ==========================================================================
    Definition List
    ========================================================================== */
@@ -3382,6 +3428,7 @@ dt {
 	font-weight: 500;
 	line-height: 1.8;
 }
+
 /* ==========================================================================
    Headings
    ========================================================================== */
@@ -3424,6 +3471,7 @@ h6 {
 	font-size: .83em;
 	margin: 0 0 .5em 0;
 }
+
 /* ==========================================================================
    Paragraph
    ========================================================================== */
@@ -3433,6 +3481,7 @@ p {
 	font-weight: 400;
 	line-height: 1.8;
 }
+
 /* ==========================================================================
    Block quote
    ========================================================================== */
@@ -3443,6 +3492,7 @@ blockquote {
 	font-style: italic;
 	border-left: 5px solid #000000;
 }
+
 /* ==========================================================================
    Link
    ========================================================================== */
@@ -3451,7 +3501,8 @@ a {
 	text-decoration: none;
 	font-size: inherit;
 }
-a:hover{
+
+a:hover {
 	color: #ea3665;
 }
 
@@ -3494,6 +3545,7 @@ a:hover{
 	-o-transition: opacity 0.25s ease, background-color 0.25s ease;
 	transition: opacity 0.25s ease, background-color 0.25s ease;
 }
+
 /* ==========================================================================
    Vendor Styles
    ========================================================================== */
@@ -3530,11 +3582,12 @@ a:hover{
 }
 
 @-webkit-keyframes bounce {
+
 	from,
-  20%,
-  53%,
-  80%,
-  to {
+	20%,
+	53%,
+	80%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		-webkit-transform: translate3d(0, 0, 0);
@@ -3542,7 +3595,7 @@ a:hover{
 	}
 
 	40%,
-  43% {
+	43% {
 		-webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
 		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
 		-webkit-transform: translate3d(0, -30px, 0);
@@ -3563,11 +3616,12 @@ a:hover{
 }
 
 @keyframes bounce {
+
 	from,
-  20%,
-  53%,
-  80%,
-  to {
+	20%,
+	53%,
+	80%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		-webkit-transform: translate3d(0, 0, 0);
@@ -3575,7 +3629,7 @@ a:hover{
 	}
 
 	40%,
-  43% {
+	43% {
 		-webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
 		animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
 		-webkit-transform: translate3d(0, -30px, 0);
@@ -3603,27 +3657,29 @@ a:hover{
 }
 
 @-webkit-keyframes flash {
+
 	from,
-  50%,
-  to {
+	50%,
+	to {
 		opacity: 1;
 	}
 
 	25%,
-  75% {
+	75% {
 		opacity: 0;
 	}
 }
 
 @keyframes flash {
+
 	from,
-  50%,
-  to {
+	50%,
+	to {
 		opacity: 1;
 	}
 
 	25%,
-  75% {
+	75% {
 		opacity: 0;
 	}
 }
@@ -3632,6 +3688,7 @@ a:hover{
 	-webkit-animation-name: flash;
 	animation-name: flash;
 }
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes pulse {
 	from {
@@ -3752,50 +3809,52 @@ a:hover{
 }
 
 @-webkit-keyframes shake {
+
 	from,
-  to {
+	to {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 	}
 
 	10%,
-  30%,
-  50%,
-  70%,
-  90% {
+	30%,
+	50%,
+	70%,
+	90% {
 		-webkit-transform: translate3d(-10px, 0, 0);
 		transform: translate3d(-10px, 0, 0);
 	}
 
 	20%,
-  40%,
-  60%,
-  80% {
+	40%,
+	60%,
+	80% {
 		-webkit-transform: translate3d(10px, 0, 0);
 		transform: translate3d(10px, 0, 0);
 	}
 }
 
 @keyframes shake {
+
 	from,
-  to {
+	to {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
 	}
 
 	10%,
-  30%,
-  50%,
-  70%,
-  90% {
+	30%,
+	50%,
+	70%,
+	90% {
 		-webkit-transform: translate3d(-10px, 0, 0);
 		transform: translate3d(-10px, 0, 0);
 	}
 
 	20%,
-  40%,
-  60%,
-  80% {
+	40%,
+	60%,
+	80% {
 		-webkit-transform: translate3d(10px, 0, 0);
 		transform: translate3d(10px, 0, 0);
 	}
@@ -3945,22 +4004,22 @@ a:hover{
 	}
 
 	10%,
-  20% {
+	20% {
 		-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
 	}
 
 	30%,
-  50%,
-  70%,
-  90% {
+	50%,
+	70%,
+	90% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 	}
 
 	40%,
-  60%,
-  80% {
+	60%,
+	80% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 	}
@@ -3978,22 +4037,22 @@ a:hover{
 	}
 
 	10%,
-  20% {
+	20% {
 		-webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
 	}
 
 	30%,
-  50%,
-  70%,
-  90% {
+	50%,
+	70%,
+	90% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
 	}
 
 	40%,
-  60%,
-  80% {
+	60%,
+	80% {
 		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
 	}
@@ -4008,6 +4067,7 @@ a:hover{
 	-webkit-animation-name: tada;
 	animation-name: tada;
 }
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes wobble {
 	from {
@@ -4089,9 +4149,10 @@ a:hover{
 }
 
 @-webkit-keyframes jello {
+
 	from,
-  11.1%,
-  to {
+	11.1%,
+	to {
 		-webkit-transform: none;
 		transform: none;
 	}
@@ -4133,9 +4194,10 @@ a:hover{
 }
 
 @keyframes jello {
+
 	from,
-  11.1%,
-  to {
+	11.1%,
+	to {
 		-webkit-transform: none;
 		transform: none;
 	}
@@ -4184,12 +4246,13 @@ a:hover{
 }
 
 @-webkit-keyframes bounceIn {
+
 	from,
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4229,12 +4292,13 @@ a:hover{
 }
 
 @keyframes bounceIn {
+
 	from,
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
+	20%,
+	40%,
+	60%,
+	80%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4279,11 +4343,12 @@ a:hover{
 }
 
 @-webkit-keyframes bounceInDown {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4317,11 +4382,12 @@ a:hover{
 }
 
 @keyframes bounceInDown {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4360,11 +4426,12 @@ a:hover{
 }
 
 @-webkit-keyframes bounceInLeft {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4398,11 +4465,12 @@ a:hover{
 }
 
 @keyframes bounceInLeft {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4441,11 +4509,12 @@ a:hover{
 }
 
 @-webkit-keyframes bounceInRight {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4479,11 +4548,12 @@ a:hover{
 }
 
 @keyframes bounceInRight {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4522,11 +4592,12 @@ a:hover{
 }
 
 @-webkit-keyframes bounceInUp {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4560,11 +4631,12 @@ a:hover{
 }
 
 @keyframes bounceInUp {
+
 	from,
-  60%,
-  75%,
-  90%,
-  to {
+	60%,
+	75%,
+	90%,
+	to {
 		-webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 		animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
 	}
@@ -4609,7 +4681,7 @@ a:hover{
 	}
 
 	50%,
-  55% {
+	55% {
 		opacity: 1;
 		-webkit-transform: scale3d(1.1, 1.1, 1.1);
 		transform: scale3d(1.1, 1.1, 1.1);
@@ -4629,7 +4701,7 @@ a:hover{
 	}
 
 	50%,
-  55% {
+	55% {
 		opacity: 1;
 		-webkit-transform: scale3d(1.1, 1.1, 1.1);
 		transform: scale3d(1.1, 1.1, 1.1);
@@ -4654,7 +4726,7 @@ a:hover{
 	}
 
 	40%,
-  45% {
+	45% {
 		opacity: 1;
 		-webkit-transform: translate3d(0, -20px, 0);
 		transform: translate3d(0, -20px, 0);
@@ -4674,7 +4746,7 @@ a:hover{
 	}
 
 	40%,
-  45% {
+	45% {
 		opacity: 1;
 		-webkit-transform: translate3d(0, -20px, 0);
 		transform: translate3d(0, -20px, 0);
@@ -4765,7 +4837,7 @@ a:hover{
 	}
 
 	40%,
-  45% {
+	45% {
 		opacity: 1;
 		-webkit-transform: translate3d(0, 20px, 0);
 		transform: translate3d(0, 20px, 0);
@@ -4785,7 +4857,7 @@ a:hover{
 	}
 
 	40%,
-  45% {
+	45% {
 		opacity: 1;
 		-webkit-transform: translate3d(0, 20px, 0);
 		transform: translate3d(0, 20px, 0);
@@ -6155,7 +6227,7 @@ a:hover{
 	}
 
 	20%,
-  60% {
+	60% {
 		-webkit-transform: rotate3d(0, 0, 1, 80deg);
 		transform: rotate3d(0, 0, 1, 80deg);
 		-webkit-transform-origin: top left;
@@ -6165,7 +6237,7 @@ a:hover{
 	}
 
 	40%,
-  80% {
+	80% {
 		-webkit-transform: rotate3d(0, 0, 1, 60deg);
 		transform: rotate3d(0, 0, 1, 60deg);
 		-webkit-transform-origin: top left;
@@ -6191,7 +6263,7 @@ a:hover{
 	}
 
 	20%,
-  60% {
+	60% {
 		-webkit-transform: rotate3d(0, 0, 1, 80deg);
 		transform: rotate3d(0, 0, 1, 80deg);
 		-webkit-transform-origin: top left;
@@ -6201,7 +6273,7 @@ a:hover{
 	}
 
 	40%,
-  80% {
+	80% {
 		-webkit-transform: rotate3d(0, 0, 1, 60deg);
 		transform: rotate3d(0, 0, 1, 60deg);
 		-webkit-transform-origin: top left;
@@ -6222,6 +6294,7 @@ a:hover{
 	-webkit-animation-name: hinge;
 	animation-name: hinge;
 }
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes rollIn {
 	from {
@@ -6255,6 +6328,7 @@ a:hover{
 	-webkit-animation-name: rollIn;
 	animation-name: rollIn;
 }
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 @-webkit-keyframes rollOut {
 	from {
@@ -6930,117 +7004,143 @@ a:hover{
 .fontello-apple:before {
 	content: '\e800';
 }
+
 /* '' */
 .fontello-android:before {
 	content: '\e801';
 }
+
 /* '' */
 .fontello-windows:before {
 	content: '\e802';
 }
+
 /* '' */
 .fontello-facebook:before {
 	content: '\e803';
 }
+
 /* '' */
 .fontello-twitter-bird:before,
 .section__button--twitter:before {
 	content: '\e804';
 }
+
 /* '' */
 .fontello-vimeo:before {
 	content: '\e805';
 }
+
 /* '' */
 .fontello-tumblr:before {
 	content: '\e806';
 }
+
 /* '' */
 .fontello-github:before {
 	content: '\e807';
 }
+
 /* '' */
 .fontello-vkontakte-rect:before {
 	content: '\e808';
 }
+
 /* '' */
 .fontello-odnoklassniki:before {
 	content: '\e809';
 }
+
 /* '' */
 .fontello-linkedin:before {
 	content: '\e80a';
 }
+
 /* '' */
 .fontello-youtube-play:before,
 .section__button--youtube:before {
 	content: '\e80b';
 }
+
 /* '' */
 .fontello-instagram-filled:before {
 	content: '\e80c';
 }
+
 /* '' */
 .fontello-ok:before,
 .list--check .list__item:before {
 	content: '\e80d';
 }
+
 /* '' */
 .fontello-play:before,
 .video__button:before {
 	content: '\e80e';
 }
+
 /* '' */
 .fontello-quote-right:before {
 	content: '\e80f';
 }
+
 /* '' */
 .fontello-mail:before {
 	content: '\e810';
 }
+
 /* '' */
 .fontello-cd:before {
 	content: '\e811';
 }
+
 /* '' */
 .fontello-tag:before {
 	content: '\e812';
 }
+
 /* '' */
 .fontello-gplus:before {
 	content: '\f0d5';
 }
+
 /* '' */
 .fontello-angle-right:before,
 .accordion__title:after,
 .menu__child .menu__link.sf-with-ul:after {
 	content: '\f105';
 }
+
 /* '' */
 .fontello-angle-down:before,
 .menu__link.sf-with-ul:after {
 	content: '\f107';
 }
+
 /* '' */
 .fontello-level-up:before {
 	content: '\f148';
 }
+
 /* '' */
 .fontello-instagram:before {
 	content: '\f16d';
 }
+
 /* '' */
 .fontello-pinterest:before {
 	content: '\f312';
 }
+
 /* '' */
 @font-face {
 	font-family: 'fontello';
-  src: url('../assets/fonts/fontello/fontello.eot?98487257');
-  src: url('../assets/fonts/fontello/fontello.eot?98487257#iefix') format('embedded-opentype'), url('../assets/fonts/fontello/fontello.woff2?98487257') format('woff2'), url('../assets/fonts/fontello/fontello.woff?98487257') format('woff'), url('../assets/fonts/fontello/fontello.ttf?98487257') format('truetype'), url('../assets/fonts/fontello/fontello.svg?98487257#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	src: url('../assets/fonts/fontello/fontello.eot?98487257');
+	src: url('../assets/fonts/fontello/fontello.eot?98487257#iefix') format('embedded-opentype'), url('../assets/fonts/fontello/fontello.woff2?98487257') format('woff2'), url('../assets/fonts/fontello/fontello.woff?98487257') format('woff'), url('../assets/fonts/fontello/fontello.ttf?98487257') format('truetype'), url('../assets/fonts/fontello/fontello.svg?98487257#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -7062,23 +7162,24 @@ a:hover{
 	width: 1em;
 	margin-right: .2em;
 	text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
+	/* opacity: .8; */
+	/* For safety - reset parent styles, that can break glyph codes*/
 	font-variant: normal;
 	text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
+	/* fix buttons height, for twitter bootstrap */
 	line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
 	margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+	/* Font smoothing. That was taken from TWBS */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+
 /*** ESSENTIAL STYLES ***/
 .sf-menu,
 .sf-menu * {
@@ -7099,12 +7200,12 @@ a:hover{
 	z-index: 99;
 }
 
-.sf-menu > li {
+.sf-menu>li {
 	float: left;
 }
 
-.sf-menu li:hover > ul,
-.sf-menu li.sfHover > ul {
+.sf-menu li:hover>ul,
+.sf-menu li.sfHover>ul {
 	display: block;
 }
 
@@ -7118,6 +7219,7 @@ a:hover{
 	top: 0;
 	left: 100%;
 }
+
 /*
     Name: YouTubePopUp
     Description: jQuery plugin to display YouTube video in PopUp, responsive and retina, easy to use.
@@ -7170,7 +7272,7 @@ a:hover{
 }
 
 body.logged-in .YouTubePopUp-Wrap {
-  /* For WordPress */
+	/* For WordPress */
 	top: 32px;
 	z-index: 99998;
 }
@@ -7269,6 +7371,7 @@ body.logged-in .YouTubePopUp-Wrap {
 		bottom: 262px;
 	}
 }
+
 /**
  * Owl Carousel v2.1.0
  * Copyright 2013-2016 David Deutsch
@@ -7281,7 +7384,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	display: none;
 	width: 100%;
 	-webkit-tap-highlight-color: transparent;
-  /* position relative and z-index fix webkit rendering fonts issue */
+	/* position relative and z-index fix webkit rendering fonts issue */
 	position: relative;
 	z-index: 1;
 }
@@ -7303,7 +7406,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .owl-carousel .owl-stage-outer {
 	position: relative;
 	overflow: hidden;
-  /* fix for flashing background */
+	/* fix for flashing background */
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 
@@ -7375,10 +7478,12 @@ body.logged-in .YouTubePopUp-Wrap {
 .owl-carousel.owl-rtl .owl-item {
 	float: right;
 }
+
 /* No Js */
 .no-js .owl-carousel {
 	display: block;
 }
+
 /*
  *  Owl Carousel - Animate Plugin
  */
@@ -7421,12 +7526,14 @@ body.logged-in .YouTubePopUp-Wrap {
 		opacity: 0;
 	}
 }
+
 /*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
 	transition: height 500ms ease-in-out;
 }
+
 /*
  * 	Owl Carousel - Lazy Load Plugin
  */
@@ -7439,6 +7546,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
+
 /*
  * 	Owl Carousel - Video Plugin
  */
@@ -7531,7 +7639,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	padding: 0 0 15px;
 }
 
-.sidr .sidr-inner > p {
+.sidr .sidr-inner>p {
 	margin-left: 15px;
 	margin-right: 15px;
 }
@@ -7575,7 +7683,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	color: rgba(51, 51, 51, 0.9);
 }
 
-.sidr > p {
+.sidr>p {
 	margin-left: 15px;
 	margin-right: 15px;
 }
@@ -7675,6 +7783,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .sidr input[type=submit]:hover {
 	background: rgba(51, 51, 51, 0.9);
 }
+
 /* ==========================================================================
    Block
    ========================================================================== */
@@ -7740,6 +7849,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .accordion__content p:last-child {
 	margin: 0;
 }
+
 /* ==========================================================================
    Block: Box
    Dependencies: no dependencies
@@ -7762,6 +7872,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	height: 40px;
 	vertical-align: middle;
 }
+
 /* ==========================================================================
    Block: Button
    Dependencies: no dependencies
@@ -7785,7 +7896,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	text-align: center;
 }
 
-.button__input:hover{
+.button__input:hover {
 	color: #ea3665;
 }
 
@@ -7843,6 +7954,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	-webkit-box-shadow: 0px 2px 10px 0px rgba(16, 16, 16, 0.86);
 	box-shadow: 0px 2px 10px 0px rgba(16, 16, 16, 0.86);
 }
+
 /* ==========================================================================
    Block: Carousel
    Dependencies: owl.carousel.less
@@ -7891,6 +8003,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	-webkit-box-shadow: 0px 5px 20px 0px rgba(205, 205, 205, 0.7);
 	box-shadow: 0px 5px 20px 0px rgba(205, 205, 205, 0.7);
 }
+
 /* ==========================================================================
    Block: Contact Form
    Dependencies: no dependencies
@@ -7964,6 +8077,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 }
+
 /* ==========================================================================
    Block: Device
    Dependencies: no dependencies
@@ -7981,6 +8095,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	-webkit-box-shadow: 0px 2px 75px 0px rgba(0, 0, 12, 0.5);
 	box-shadow: 0px 2px 75px 0px rgba(0, 0, 12, 0.5);
 }
+
 /* ==========================================================================
    Block: Download Button
    Dependencies: no dependencies
@@ -8009,11 +8124,11 @@ body.logged-in .YouTubePopUp-Wrap {
 	text-transform: capitalize;
 	letter-spacing: 0.005em;
 	margin-bottom: 10px;
-	font-family:'Open Sans', sans-serif ;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.download-button__platform:hover{
-	color:#ea3665 ;
+.download-button__platform:hover {
+	color: #ea3665;
 }
 
 .download-button__store {
@@ -8022,6 +8137,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	letter-spacing: 0.005em;
 	font-size: 22px;
 }
+
 /* ==========================================================================
    Block: Dropdown
    Dependencies: Fontello.less
@@ -8126,6 +8242,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .dropdown__item--active {
 	color: #23034C;
 }
+
 /* ==========================================================================
    Block: Error
    Dependencies: no dependencies
@@ -8250,6 +8367,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	height: 100%;
 	min-height: 600px;
 }
+
 /* ==========================================================================
    Block: Footer
    Dependencies: Fontello.less
@@ -8286,6 +8404,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .footer__scroll-icon {
 	font-size: 17px;
 }
+
 /* ==========================================================================
    Block: Header
    Dependencies: no dependencies
@@ -8313,6 +8432,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	right: 0;
 	backface-visibility: hidden;
 }
+
 /* ==========================================================================
    Block: Hero
    Dependencies: no dependencies
@@ -8338,6 +8458,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .hero--center {
 	text-align: center;
 }
+
 /* ==========================================================================
    Block: Input
    Dependencies: Fontello.less
@@ -8424,6 +8545,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	font-weight: 400;
 	color: #000000;
 }
+
 /* ==========================================================================
    Block: Instagram Widget
    Dependencies: Fontello.less
@@ -8485,6 +8607,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	-webkit-filter: grayscale(1);
 	filter: grayscale(1);
 }
+
 /* ==========================================================================
    Block: Link List
    Dependencies: no dependencies
@@ -8508,6 +8631,7 @@ body.logged-in .YouTubePopUp-Wrap {
 .link-list__link:hover {
 	color: #ea3665;
 }
+
 /* ==========================================================================
    Block: List
    Dependencies: no dependencies
@@ -8559,6 +8683,7 @@ body.logged-in .YouTubePopUp-Wrap {
 	display: block;
 	height: 100px;
 }
+
 /* ==========================================================================
    Block: Map
    Dependencies: no dependencies
@@ -8587,6 +8712,7 @@ a[href^="https://maps.google.com/maps"] {
 .gm-style-cc {
 	display: none;
 }
+
 /* ==========================================================================
    Block: Member
    Dependencies: Fontello.less
@@ -8689,6 +8815,7 @@ a[href^="https://maps.google.com/maps"] {
 	left: 50%;
 	margin-left: -11px;
 }
+
 /* ==========================================================================
    Block: Menu Trigger
    Dependencies: no dependencies
@@ -8746,6 +8873,7 @@ a[href^="https://maps.google.com/maps"] {
 .menu-trigger:after {
 	top: 0;
 }
+
 /* ==========================================================================
    Block: Menu
    Dependencies: jquery.superfish.less, Fontello.less
@@ -8790,7 +8918,7 @@ a[href^="https://maps.google.com/maps"] {
 	vertical-align: top;
 }
 
-.menu > .menu__item {
+.menu>.menu__item {
 	float: none;
 }
 
@@ -8880,11 +9008,11 @@ a[href^="https://maps.google.com/maps"] {
 	top: 5px;
 }
 
-.menu__item:hover > .menu__link {
+.menu__item:hover>.menu__link {
 	color: #ea3665;
 }
 
-.menu__item:hover > .menu__link:after {
+.menu__item:hover>.menu__link:after {
 	color: #ea3665;
 }
 
@@ -8905,7 +9033,7 @@ a[href^="https://maps.google.com/maps"] {
 	width: 15px;
 }
 
-.menu__item--active > .menu__link {
+.menu__item--active>.menu__link {
 	color: #23034C;
 }
 
@@ -8928,6 +9056,7 @@ a[href^="https://maps.google.com/maps"] {
 .menu--mobile .menu__child .menu__item--active .menu__link:before {
 	display: none;
 }
+
 /* ==========================================================================
    Block: Mobile Menu
    Dependencies: sidr.less
@@ -8991,7 +9120,7 @@ a[href^="https://maps.google.com/maps"] {
 	font-size: 16px;
 }
 
-.mobile-menu__item:hover > .mobile-menu__link {
+.mobile-menu__item:hover>.mobile-menu__link {
 	color: #23034C;
 }
 
@@ -9027,6 +9156,7 @@ a[href^="https://maps.google.com/maps"] {
 	left: auto;
 	right: -100%;
 }
+
 /* ==========================================================================
    Block: Preloader
    Dependencies: no dependencies
@@ -9166,6 +9296,7 @@ a[href^="https://maps.google.com/maps"] {
 		transform: rotateX(360deg) rotateZ(360deg);
 	}
 }
+
 /* ==========================================================================
    Block: Pricing
    Dependencies: Fontello.less
@@ -9264,6 +9395,7 @@ a[href^="https://maps.google.com/maps"] {
 	color: #1c57ff;
 	font-weight: 600;
 }
+
 /* ==========================================================================
    Block: Push
    Dependencies: no dependencies
@@ -9307,6 +9439,7 @@ a[href^="https://maps.google.com/maps"] {
 .push--150 {
 	margin-bottom: 150px;
 }
+
 /* ==========================================================================
    Block: Screens Preview
    Dependencies: no dependencies
@@ -9353,6 +9486,7 @@ a[href^="https://maps.google.com/maps"] {
 	right: -34%;
 	left: auto;
 }
+
 /* ==========================================================================
    Block: Section Subtitle
    Dependencies: no dependencies
@@ -9380,6 +9514,7 @@ a[href^="https://maps.google.com/maps"] {
 	color: white;
 	opacity: .3;
 }
+
 /* ==========================================================================
    Block: Section Title
    Dependencies: no dependencies
@@ -9404,6 +9539,7 @@ a[href^="https://maps.google.com/maps"] {
 .section-title__highlight {
 	color: #23034C;
 }
+
 /* ==========================================================================
    Block: Section
    Dependencies: Fontello.less
@@ -9415,7 +9551,7 @@ a[href^="https://maps.google.com/maps"] {
 
 .section--grey {
 	background-color: #f7f7f7;
-	padding-top:10px;
+	padding-top: 10px;
 }
 
 .section--blue {
@@ -9466,7 +9602,7 @@ a[href^="https://maps.google.com/maps"] {
 	box-shadow: 0px 4px 20px 0px rgba(25, 25, 25, 0.45);
 }
 
-.section__button:hover{
+.section__button:hover {
 	color: #ea3665;
 }
 
@@ -9486,6 +9622,7 @@ a[href^="https://maps.google.com/maps"] {
 	color: #008efc;
 	font-family: "fontello";
 }
+
 /* ==========================================================================
    Block: Slider
    Dependencies: owl.carousel.less
@@ -9584,7 +9721,7 @@ a[href^="https://maps.google.com/maps"] {
 	margin: 0 auto;
 	z-index: 5;
 	position: relative;
-	
+
 }
 
 .slider__secondary {
@@ -9630,6 +9767,7 @@ a[href^="https://maps.google.com/maps"] {
 		left: 0;
 	}
 }
+
 /* ==========================================================================
    Block: Socials
    Dependencies: Fontello.less
@@ -9694,6 +9832,7 @@ a[href^="https://maps.google.com/maps"] {
 	background: white;
 	color: #23034C;
 }
+
 /* ==========================================================================
    Block: Stats
    Dependencies: no dependencies
@@ -9706,7 +9845,7 @@ a[href^="https://maps.google.com/maps"] {
 	border-bottom: 3px solid #23034C;
 	-webkit-box-shadow: 0px 1px 4px 0px rgba(221, 221, 221, 0.75);
 	/* box-shadow: 0px 1px 4px 0px rgba(221, 221, 221, 0.75); */
-	box-shadow:3px 20px 20px 14px rgb(221 221 221 / 75%);
+	box-shadow: 3px 20px 20px 14px rgb(221 221 221 / 75%);
 
 }
 
@@ -9722,6 +9861,7 @@ a[href^="https://maps.google.com/maps"] {
 	font-size: 16px;
 	margin: 0;
 }
+
 /* ==========================================================================
    Block: Subscribe
    Dependencies: no dependencies
@@ -9730,6 +9870,7 @@ a[href^="https://maps.google.com/maps"] {
 	padding: 15px;
 	border: 1px dotted rgba(183, 184, 184, 0.3);
 }
+
 /* ==========================================================================
    Block: Tabs
    Dependencies: no dependencies
@@ -9877,6 +10018,7 @@ a[href^="https://maps.google.com/maps"] {
 		top: 130px;
 	}
 }
+
 /* ==========================================================================
    Block: Testimonials
    Dependencies: no dependencies
@@ -9975,6 +10117,7 @@ a[href^="https://maps.google.com/maps"] {
 	margin-left: -195px;
 	text-shadow: 0px 9px 94px rgba(149, 149, 149, 0.45);
 }
+
 /* ==========================================================================
    Block: Twitter Widget
    Dependencies: Fontello.less
@@ -10030,6 +10173,7 @@ a[href^="https://maps.google.com/maps"] {
 .twitter-widget .TweetAuthor-verifiedBadge {
 	display: none;
 }
+
 /* ==========================================================================
    Block: Video
    Dependencies: no dependencies
@@ -10124,6 +10268,7 @@ div.video:before {
 	margin-top: -50px;
 	z-index: 1;
 }
+
 /* ==========================================================================
    Media
    ========================================================================== */
@@ -10151,7 +10296,7 @@ div.video:before {
 	}
 
 	.section--skin-1,
-  .section--skin-2 {
+	.section--skin-2 {
 		background: none;
 	}
 
@@ -10455,7 +10600,7 @@ div.video:before {
 	}
 
 	.video__secondary--left,
-  .video__secondary--right {
+	.video__secondary--right {
 		display: none;
 	}
 }
@@ -10502,3 +10647,5 @@ div.video:before {
 		margin-bottom: 20px;
 	}
 }
+
+

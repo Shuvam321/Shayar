@@ -830,6 +830,7 @@ a.scroll-top {
                 background: $primary-color;
                 color: #fff;
             }
+            
         }
         button.owl-prev {
             width: 35px;
@@ -1336,7 +1337,7 @@ a.scroll-top {
             border: none;
             font-size: 16px;
             line-height: 0;
-            top: 50%;
+            top: -160px;
             position: absolute;
             right: 18%;
             background: #fff;
@@ -1347,6 +1348,9 @@ a.scroll-top {
                 background: $primary-color;
                 color: #fff;
             }
+            border:solid red 2px !important;
+
+            
         }
         button.owl-prev {
             width: 35px;
@@ -1355,7 +1359,7 @@ a.scroll-top {
             border: none;
             font-size: 16px;
             line-height: 0;
-            left: 18%;
+            // left: 18%;
             top: 50%;
             position: absolute;
             color: $primary-color;
@@ -1422,6 +1426,7 @@ a.scroll-top {
                 background: $primary-color;
                 color: #fff;
             }
+            
         }
         button.owl-prev {
             width: 35px;
@@ -3076,6 +3081,7 @@ a.scroll-top {
                     background: $primary-color;
                     color: #fff;
                 }
+                
             }
             button.owl-prev {
                 width: 35px;
