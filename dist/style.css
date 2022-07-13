@@ -10196,17 +10196,18 @@ a[href^="https://maps.google.com/maps"] {
 	transition: transform .25s ease;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid #fff;
+	border: 3px solid blue;
 	z-index: 20;
 	text-align: center;
 	line-height: 62px;
 	text-indent: 4px;
+	/* color:blue ; */
 }
 
 .video__button:before {
 	font-size: 24px;
 	font-family: "fontello";
-	color: white;
+	color: blue;
 }
 
 .video__holder:hover .video__button {
