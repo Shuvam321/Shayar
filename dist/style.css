@@ -9680,17 +9680,33 @@ a[href^="https://maps.google.com/maps"] {
 	width: 100%;
 }
 
+  /* .mycss:first-child::after{
+	content: "Mood";
+	position: absolute;
+	top: 20x;
+	left: 20px;
+} */
+
 .slider .owl-dots .owl-dot:last-child {
 	margin: 0;
 }
+ 
+/* .slider .owl-dots .owl-dot span:before {
+} */
 
-.slider .owl-dots .owl-dot span:before {
-	content: "slide";
+.slider .owl-dots .owl-dot:nth-child(1):before{
+	content: "Mood"; 
 }
 
+.slider .owl-dots .owl-dot:nth-child(2):before{
+	content: "Discover"; 
+}
+.slider .owl-dots .owl-dot:nth-child(3):before{
+	content: "Explore"; 
+}
 .slider .owl-dots .owl-dot span:after {
 	counter-increment: dots;
-	content: "0" counter(dots);
+	/* content: "0" counter(dots); */
 	margin-left: 3px;
 	color: #23034C;
 }
